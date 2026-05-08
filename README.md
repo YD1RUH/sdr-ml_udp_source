@@ -1,6 +1,14 @@
 # sdr-ml_udp_source
 sdr-ml_udp_source
 
+## Skema
+| Nama Skema | Gambar |
+| :--- | :--- |
+| **rtl-ml** | ![SKEMA1](https://github.com/YD1RUH/sdr-ml_udp_source/blob/main/SKEMA1.png?raw=true) |
+| **blade-ml** | ![SKEMA12](https://github.com/YD1RUH/sdr-ml_udp_source/blob/main/SKEMA2.png?raw=true) |
+
+---
+
 ## Perhatian !!!
 - letakkan ```classify_live_udp.py``` ke dalam directory src
 - letakkan ```iq_to_udp.grc```, ```iq_to_udp_fosphor.grc```, ```train_udp.py``` di root repository sdr-ml (TrevTron)
