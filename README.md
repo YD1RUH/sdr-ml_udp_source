@@ -1,6 +1,8 @@
 # sdr-ml_udp_source
 sdr-ml_udp_source, Versi modifikasi dari repositori pengklasifikasi sinyal radio AI ini mengadaptasi alur kerja aslinya untuk mendukung perangkat keras bladeRF dan integrasi jaringan menggunakan GNU Radio. Alih-alih mengandalkan pengambilan sampel data IQ mentah secara langsung melalui skrip Python bawaan (seperti pyrtlsdr), sistem ini dirancang untuk menerima aliran data secara real-time melalui koneksi UDP dari sinyal yang telah diproses terlebih dahulu oleh flowgraph GNU Radio. Perubahan arsitektur (pipeline) ini memberikan fleksibilitas prapemrosesan sinyal yang lebih tangguh pada SDR kelas atas sebelum data tersebut masuk ke tahap ekstraksi fitur dan diprediksi oleh model Random Forest. Meskipun antarmuka penangkapan datanya dirombak, proyek ini tetap mempertahankan inti utamanya sebagai sistem klasifikasi 7 jenis sinyal radio berbasis machine learning yang efisien dan ringan untuk dijalankan pada perangkat komputasi edge.
 
+*(video: [http://www.youtube.com/watch?v=qHo3gsi-D5M](http://www.youtube.com/watch?v=qHo3gsi-D5M))*
+
 ## Skema
 | Nama Skema | Gambar |
 | :--- | :--- |
